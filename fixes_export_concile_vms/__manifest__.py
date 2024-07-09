@@ -2,7 +2,7 @@
 {
     'name': "Fixes conciliacion",
 
-    'summary': """ """,
+    'summary': """""",
 
     'description': """ """,
 

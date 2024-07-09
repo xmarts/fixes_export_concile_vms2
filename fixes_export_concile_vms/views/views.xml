@@ -15,11 +15,11 @@
         <record id="view_bank_statement_tree_inherited" model="ir.ui.view">
             <field name="name">account.bank.statement.tree.inherited</field>
             <field name="model">account.bank.statement</field>
-            <field name="inherit_id" ref="view_bank_statement_tree"/>
+            <field name="inherit_id" ref="account.view_bank_statement_tree"/>
             <field name="arch" type="xml">
-            <xpath expr="//tree" position="attributes">
-                <attribute name="create">true</attribute>
-            </xpath>
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="create">true</attribute>
+                </xpath>
             </field>
         </record>
     </data>
